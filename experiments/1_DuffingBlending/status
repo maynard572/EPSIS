@@ -11,7 +11,12 @@ Results:
 
 
 High level experiment description:
-  A hypothetical underlying distribution is created by kernel dressing a sample of output from the Duffing distribution and a family of probability forecasts is created one of which will exactly match the underlying.  The key parameter which indexes the forecasts is the kernel width.  Samples from the underlying are taken and optimum score estimation is used to choose the forecast with the best score given the sample.  The choice of the forecast is equivalent to estimating the kernel width which can be compared to the true kernel width of the underlying.   The difference between the chosen kernel width and the true value is an objective measure of how well the skill score has performed.  This allows different scores to be compared.  
+  A hypothetical underlying distribution is created by kernel dressing a sample of output from the Duffing distribution and a
+  family of probability forecasts is created one of which will exactly match the underlying.  The key parameter which indexes
+  the forecasts is the kernel width.  Samples from the underlying are taken and optimum score estimation is used to choose the
+  forecast with the best score given the sample.  The choice of the forecast is equivalent to estimating the kernel width
+  which can be compared to the true kernel width of the underlying.   The difference between the chosen kernel width and the
+  true value is an objective measure of how well the skill score has performed.  This allows different scores to be compared.  
 
 
 
