@@ -13,5 +13,16 @@ This experiment tests how well skill scores perform when the observations form a
 underlying is a unit normal distribution;  three forecasts are produced named: Narrow, Perfect and Wide - each also being
 gaussian but with varying standard deviation. A given forecast is chosen if it has the best score over the sparse hypothetical
 observations. The experiment is repeated multiple times and the proportion of times the perfect forecast is chosen gives an 
-objective measure of how well the skill score has peformed (i.e. if a skill score leads to an incorrect forecast being chosen regularly then it has not performed well).  The experiment is carried out for multiple skill scores to produce a ranking in this context.  
+objective measure of how well the skill score has peformed (i.e. if a skill score leads to an incorrect forecast being chosen
+regularly then it has not performed well).  The experiment is carried out for multiple skill scores to produce a ranking in 
+this context.  
+
+Skill scores tested:
+Ignorance
+CRPS
+Naive Linear
+Proper Linear
+Power rule (alpha = 1.5, 2, 2.5)
+Spherical
+Mean Squared Error
 
