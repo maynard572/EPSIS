@@ -1,19 +1,31 @@
 Status: Complete
 
 Results:
+• An initially surprising result, all the scores apart from the Ignorance score have the same Rejection Times. 
+This is because the extensions of the Naive Linear score all involve integral terms that are constant for a given forecast, 
+these cause the Skill Gap of these related scores to be scalar multiples of one another and hence the same Rejection Times 
+arise (see paper)
+• For all scores, the further truth is from the forecast the faster the forecast system will be rejected.
+• Ignorance gives a shorter Rejection Time when the truth is HybridPareto - but the Naive Linear, ProperLinear 
+and Spherical do better (in some cases much better) when the truth is Lognormal like. 
+• This leads to a key conclusion that using multiple scores would be useful in some contexts.
 
 
 
-
-
-
+High level experiment description:
+The Skill Gap is a generalisation of the Information Deficit which compares how close a score is to its expected value.  
+For a given series of forecasts the distribution of the skill gap can be estimated and this allows an erroneous forecast
+to be rejected after a certain time if the observed value falls outside of a pre-selected level of signficance.  A family
+of underlying distributions indexed within a triangle of parameters is created, each member of this family can also act as
+a forecast for any member of the family.  For each pair forecast/underlying the rejection time is calculated (having specified
+a level of confidence and significance).  This allows an objective measure of skill score performance (i.e. a skill score that 
+takes a long time to reject an erroneous forecast has performed "badly") - which allows comparison of different skill scores.
 
 
 Skill scores tested:
 Ignorance
-CRPS
 Naive Linear
 Proper Linear
 Power rule (alpha = 1.5, 2, 2.5)
 Spherical
-Mean Squared Error
+
