@@ -19,7 +19,14 @@ High level experiment description:
   true value is an objective measure of how well the skill score has performed.  This allows different scores to be compared.  
 
 
-
+Skill scores tested:
+Ignorance
+CRPS
+Naive Linear
+Proper Linear
+Power rule (alpha = 1.5, 2, 2.5)
+Spherical
+Mean Squared Error
 
 
 
