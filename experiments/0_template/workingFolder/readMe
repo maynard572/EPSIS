@@ -1,0 +1,5 @@
+The folder named "workingFolder" should contain all the scripts, and small data files used in the experiments
+Please note that large data files should not be uploaded as that isnt in the spirit of Git Hub 
+and we will be "encouraged" to remove them!
+
+You can add additional sub-folders as you wish - there is no further "imposed" structure
