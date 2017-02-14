@@ -1,0 +1,34 @@
+Status: Complete
+
+Results:
+The following scores have the Feasibility property: 
+• Ignorance
+• Naive linear
+• Proper linear
+• Power rule
+• Spherical
+• Brier
+
+The following scores do not have the Feasibility property: 
+• CRPS
+• MSE
+
+On the presumption that the Feasibility property is considered desirable the CRPS and MSE are therefore of low rank on this
+basis.
+
+
+High level experiment summary:
+The Feasibility property highlights that certain scores tend to assign good values to forecasts that assign high probability
+to events that are near impossible. If Feasibility is accepted as a desirable property then scores which do not posses this
+property should be passed over in favour of those that do. Specifically the Mean Squared Error and CRPS scores are not
+‘Feasible’ and would therefore have a low rank according to this criteria.
+
+
+Skill scores tested:
+Ignorance
+CRPS
+Naive Linear
+Proper Linear
+Power rule (alpha = 1.5, 2, 2.5)
+Spherical
+Mean Squared Error
