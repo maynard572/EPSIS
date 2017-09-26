@@ -4,7 +4,7 @@ Results:
 • The Ignorance score does best at choosing parameters that are close to the true kernel width;
 • Amongst the Proper scores the CRPS does worst;
 • The Improper Naive Linear score never outperforms the Ignorance score but does occasionally beat the other Proper scores;
-• The Improper Mean Squared Error score does worst (and the reason for this is described in section 2.4.1 below);
+• The Improper Mean Squared Error score does worst;
 • The Proper Linear, Power Rule and Spherical scores all have similar performance in this test;
 • As α gets smaller the power rule score performs better on this test.
 • The RMSE statistic is deeply flawed in this section, is non-proper and systematically fails
